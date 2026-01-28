@@ -1,0 +1,7 @@
+ENCODER_MAP_ENABLE = yes
+AUTO_SHIFT_ENABLE = no
+
+RGBLIGHT_ENABLE = no      # underglow
+RGB_MATRIX_ENABLE = yes   # per-key RGB
+SPLIT_KEYBOARD = yes
+
