@@ -1,0 +1,31 @@
+De data-stroom (de "slang") is cruciaal: deze loopt op de linkerhelft van onder naar boven en op de rechterhelft van boven naar onder.
+LINKER HELFT (Slave)
+
+Data start bij de Underglow, gaat dan naar de duim en zigzagt naar boven.
+Rij	Richting	LED Indexen	Functie Voorbeeld
+Rij 1 (Top)	←	10 09 08 07 06	F1 - F5 (Layer 2)
+Rij 2	→	11 12 13 14 15	12 = Caps Lock
+Rij 3	←	21 20 19 18 17	23 = Num Lock
+Rij 4	→	22 23 24 25 26	Pijltjes Cluster (Layer 1)
+Rij 5 (Duim)	←	34 33 32 31	Groene Zone (Alt/Space/Etc)
+Underglow	→	00 t/m 05	Bodemverlichting Links
+RECHTER HELFT (Master)
+
+Data komt over de kabel, gaat via Underglow naar de bovenkant en zigzagt omlaag.
+Rij	Richting	LED Indexen	Functie Voorbeeld
+Underglow	→	35 t/m 40	Bodemverlichting Rechts
+Rij 1 (Top)	→	41 42 43 44 45 46	42, 43, 44 = Numpad 7, 8, 9
+Rij 2	←	52 51 50 49 48 47	51, 50, 49 = Numpad 4, 5, 6
+Rij 3	→	53 54 55 56 57 58	54, 55, 56 = Numpad 1, 2, 3
+Rij 4	←	64 63 62 61 60 59	61, 62 = Numpad 0, .
+Rij 5 (Duim)	→	65 66 67 68 69	66-69 = Groene Zone
+Kleurlogica Samenvatting
+Kleur	Betekenis
+Groen	Base Layer / De "Veilige" Duimtoetsen (31-34 & 66-69)
+Blauw	F-toetsen (Layer 2)
+Rood	Pijltjestoetsen (Layer 1 & 2)
+Oranje	Actieve functietoetsen (Shift, Ctrl, Enter, etc. op Layers 1, 2, 3)
+Wit (Blink)	Actieve Locks (Caps/Num)
+Zwart	KC_TRNS of XXXXXXX (Niet-actieve toetsen op die laag)
+
+Dit schema kun je gebruiken als "wegenkaart" mocht je in de toekomst nog een toets willen verplaatsen of een specifieke kleur willen geven.
